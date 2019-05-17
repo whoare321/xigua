@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>西瓜二手车</title>
+    <link rel="stylesheet" type="text/css" href="css/guazi.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        *{padding: 0;margin: 0;}
+        .mai1{width: 100%;height: 700px;background: url(pic/29.jpg);position: relative;}
+        .mtopl{width: 200px;height: 55px;margin-left: 70px;float: left;color: #fff;}
+        .mtopl span{display:block;width: 80px;height: 55px;text-align: center;float: left;}
+        .maisp{line-height: 55px;margin-left: -10px;}
+        .mtopl img{width: 55px;height: 55px;}
+        .mtopn{width: 800px;margin-left:500px;height: 55px;color: #fff;}
+        .mtopn a{font-size: 14px;margin-left: 40px;line-height: 55px;color: #fff;}
+        .mtopn a.buymai{border-bottom: 1px solid #3bb46d}
+        .mtopn a:hover{color: #3bb46d;}
+        .mtopn a:last-child:before{content: '';background: url(pic/30.jpg)no-repeat;background-size: 100% 100%;width: 19px;height: 19px;position: absolute;right: 90px;top: 18px;}
+        .mai2-3{width: 700px;height: 70px;color: #fff;font-size: 40px;margin: 50px auto;}
+        .mai2-4{width: 100%;height: 300px;text-align: center;color: #fff;position: relative;}
+        .mai2-4 input{width: 400px;height: 50px;border-radius: 1px;font-size: 20px;display: block;float: left;margin-left: 300px;}
+        .mai2-4 span{width: 150px;height: 50px;background: #22ac38;color: #fff;font-size: 20px;display: block;float: left;text-align: center;line-height: 50px;}
+        .mai2-4 .mai2-btn2{opacity: 0.8; margin-left: 30px;}
+        .mai2-4 a{display:block;clear:both;color: #fff;font-size: 18px;width: 500px;height: 70px;padding-top: 50px;margin-left: 400px;}
+        .cheb{position: absolute;top: 100px;left: 420px;border-radius: 10px}
+        .mai2-5{width: 1200px;height: 500px;background: #fff;position: absolute;top: 400px;left: 80px;text-align: center;padding-top: 50px;box-sizing: border-box}
+        .mai2-5 .mai2-51{font-size: 35px;color: green;}
+        .mai2-5 p.mai2-5p{font-size: 18px;color: #888;margin-top: 5px;}
+        .mai2-5 div{float: left;width: 200px;height: 200px;margin-left: 150px;text-align: center;margin-top: 30px;}
+        .mai2-5 div img{margin-left: 40px;}
+        .mai2-5 div p{line-height: 30px}
+        .mai2-5p1{font-size: 24px;}
+        .mai2-5p2{font-size: 14px;color: #888}
+        .mai2-5a1{color: green;clear: both;display: block;width: 100px;height: 100px;padding-top: 60px;margin-left: 550px;box-sizing: border-box}
+        .mai2{width: 1200px;margin-top: 200px;text-align: center;margin-left: 70px;}
+        .mai2 p{font-size: 35px;color: green;margin-bottom: 20px;}
+        .plan{width: 100%;height: 300px;}
+        .plan img{width: 1150;height: 300px;margin-left: 10px;display: none}
+        .plan .one{display: block}
+        .mai2c{width: 200px;height: 50px;background: #179500;color: #fff;margin-top: 80px;font-size: 18px;text-align: center;line-height: 50px;border-radius: 3px;margin-left: 500px;}
+        .mai3{width: 1343px;height: 555px;background: #F8F8F8;margin-top: 50px;}
+        .mai3 p{width: 100%;height: 100px;text-align: center;line-height: 100px;font-size: 30px;}
+        .mai3-1{width: 500px;height: 250px;position: relative;margin-left: 100px;float: left;}
+        .mai3-11{width: 65px;height: 300px;float: left;}
+        .mai3-1 img{width: 65px;height: 65px;border-radius: 50%;}
+        .mai3-12{position: absolute;left: 100px;top:10px}
+        .mai3-1 span{display: block;}
+        .mai3-1sp{width: 250px;line-height: 35px;background: #EBEBEB;}
+        .mai3-1sp2{line-height: 35px;color: #a5abb2;font-size: 14px}
+    </style>
+</head>
+
+<body>
+    <div class="mai1">
+        <div class="mtopl">
+            <span><img src="img/mai1.png" alt=""></span>
+            <span class="maisp">郑州</span>
+        </div>
+        <div class="mtopn">
+            <a href="03guaziershouche.html">首页</a>
+            <a href="05maiche1.html">我要买车</a>
+            <a href="06maiche2.html" class="buymai">我要卖车</a>
+            <a href="07xiguafuwu.html">西瓜服务</a>
+            <a href="08xiguajinrong.html">西瓜金融</a>
+            <a href="#">毛豆新车</a>
+            <span>热线电话 400-069-6530</span>
+            <a href="#" data-toggle="modal" data-target="#myModal">登录</a>
+        </div>
+        <div class="mai2-3">西瓜二手车直卖网&nbsp;&nbsp;二手车行业领军者</div>
+        <div class="mai2-4">
+            <input type="text" placeholder="请输入手机号，5947万车主已提交">
+            <span class="mai2-btn1" id="buycar">免费卖车</span>
+            <span class="mai2-btn2">快速估价</span>
+            <a href="#">首付10%，厂商直供，爆款新车开回家 去抢购 ></a>
+            <img src="pic/31.jpg" class="cheb">
+        </div>
+        <div class="mai2-5">
+            <p class="mai2-51">西瓜包卖服务</p>
+            <p class="mai2-5p">立即拿车款 安心卖高价</p>
+            <div>
+                <img src="pic/01.png" alt="">
+                <p class="mai2-5p1">当天拿钱</p>
+                <p class="mai2-5p2">最高可得50%</p>
+                <p class="mai2-5p2">过户得余款</p>
+            </div>
+            <div>
+                <img src="pic/02.png" alt="">
+                <p class="mai2-5p1">快速高价</p>
+                <p class="mai2-5p2">面向全国买家</p>
+                <p class="mai2-5p2">锁定最优价格</p>
+            </div>
+            <div>
+                <img src="pic/03.png" alt="">
+                <p class="mai2-5p1">托管省心</p>
+                <p class="mai2-5p2">专人帮你卖车</p>
+                <p class="mai2-5p2">每次节省3小时</p>
+            </div>
+            <a href="#" class="mai2-5a1">查看详情介绍</a>
+        </div>
+    </div>
+    <div class="nva01">
+            <div class="nva0">
+                <div class="n1">
+                    <span class="sp1"></span>
+                    <span class="you-n">
+                        <i></i>
+                        <p>下载APP关注更多信息</p>
+                    </span>
+                </div>
+                <div class="n2">
+                    <span class="sp1"></span>
+                    <span class="you-n1">
+                        <i></i>
+                        <p>关注公众号了解更多信息</p>
+                    </span>
+                </div>
+                <div class="n3">
+                    <span class="sp1"></span>
+                    <span class="you-n2">
+                        <p>意见反馈</p>
+                    </span>
+                </div>
+                <div class="n4">
+                    <span class="sp1"></span>
+                    <span class="you-n3">
+                        <p>免费咨询：400-069-6530</p>
+                    </span>
+                </div>
+                <div class="n5">
+                    <span class="sp1"></span>
+                    <span class="you-n4">
+                        <p>暂无浏览记录</p>
+                    </span>
+                </div>
+            </div>
+    </div>
+    <div class="mai2">
+        <p>最新成交</p>
+        <div class="plan">
+            <img src="pic/32.jpg" class="one" name="pic">
+            <img src="pic/33.jpg" name="pic">
+            <img src="pic/34.jpg" name="pic">
+        </div>
+        <div class="mai2c">查看全部成交车源</div>
+    </div>
+    <script>
+        var pic=document.getElementsByName('pic');
+        var index=0;
+        setInterval(next,2000);
+        console.log(pic)
+        function next(){
+            pic[index].className='';
+            index++;
+            if(index==pic.length){
+                index=0;
+            }
+            pic[index].className='one';
+        }
+    </script>
+    <div class="mai3">
+        <p>西瓜问答</p>
+        <div class="mai3-1">
+            <div class="mai3-11"><img src="pic/35.jpg" alt=""></div>
+            <div class="mai3-12">
+                <span class="mai3-1sp">Q1：在瓜子卖车有什么优势？</span>
+                <span class="mai3-1sp2">瓜子二手车直卖网，一直秉承“没有中间商赚差价”的二手车直卖模式，将原本由中间环节层层加码产生的差价让渡给买卖双方，让买家少花钱，卖家多卖钱。同时，瓜子二手车有专业的售车顾问为您精准匹配优质客户，快速卖出，且全程陪同，卖车流程安全省心可靠。</span>
+            </div>
+        </div>
+        <div class="mai3-1">
+            <div class="mai3-11"><img src="pic/36.jpg" alt=""></div>
+            <div class="mai3-12">
+                    <span class="mai3-1sp">Q2：卖车流程是怎样的？</span>
+                    <span class="mai3-1sp2">Q2：卖车流程是怎样的？<br/>
+                            1、在本页填写卖车信息或拨打400-023-1529联系我们。<br/>
+                            2、接受评估师专业的上门质检，定出售价。<br/>
+                            3、交易专员带领买家上门看车。<br/>
+                            4、达成交易协议，具备过户条件的瓜子二手车直卖网提供过户服务。
+                    </span>
+            </div>
+        </div>
+        <div class="mai3-1">
+            <div class="mai3-11"><img src="pic/37.jpg" alt=""></div>
+            <div class="mai3-12">
+                <span class="mai3-1sp">Q3：卖车需要准备什么？</span>
+                <span class="mai3-1sp2">Q3：卖车需要准备什么？
+                        1、身份证；2、环保标；3、购置税本；4、行驶证；5、检字标；6、购置税发票；7、车辆登记证；8、交强险标；9、购车发票/最近一次过户发票；10、交强险单。
+                </span>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+            <div class="footer-1">
+                <span class="span1"></span>
+                <span class="span2">
+                    <p class="p-s1">咨询电话&nbsp;：&nbsp;400-069-6530&nbsp;&nbsp;（周一至周日&nbsp; 8:00-21:00）</p>
+                    <p class="p-s1">服务监督热线&nbsp;：&nbsp; 400-066-8780&nbsp;&nbsp;（周一至周日 &nbsp;9:00-21:00）</p>
+                    <p class="p-s2">互联网违法或不良信息举报联系方式：</p>
+                    <p class="">邮箱&nbsp;：&nbsp;&nbsp; jubao@guazi.com&nbsp;&nbsp;  电话&nbsp;：&nbsp;010-89191670</p>
+                </span>
+                <span class="span3">
+                    <img src="img/footer1.png">
+                    <p>关注微信</p>
+                </span>
+                <span class="span4">
+                    <img src="img/footer2.png">
+                    <p>下载APP</p>
+                    <i>瓜分十亿红包</i>
+                </span>
+                <span class="span5">
+                    <div class="s5-a">
+                        <a href="#">关于西瓜</a>
+                        <a href="#">集团介绍</a>
+                        <a href="#"> 加入我们</a>
+                        <a href="#">联系我们</a>
+                        <a href="#">服务保障</a>
+                        <a href="#">隐私声明</a>
+                        <a href="#">服务条款</a>
+                        <a href="#">营业执照</a>
+                    </div>
+                    <p class="s5-p">Copyright 2018 www.guazi.com All Rights Reserved<br/>
+    
+                        京ICP备15053955号 ICP证151071号 
+                    </p>
+                    <a href="#" class="as5">京公网安备11010802020161号</a>
+                </span>
+            </div>
+            <div class="footer-2">
+                <div class="touw">西瓜®/西瓜二手车®/西瓜二手车直卖网®等带有®标记的内容均是车好多旧机动车经纪（北京）有限公司的注册商标。</div>
+                <div class="foot-m">
+                    <span>热门品牌：</span>
+                    <a href="#" class="f-m1"> 郑州二手大众</a>
+                    <a href="#" class="f-m1">郑州二手别克</a>
+                    <a href="#" class="f-m1">郑州二手福特</a>
+                    <a href="#" class="f-m1">郑州二手奔驰</a>
+                    <a href="#" class="f-m1">郑州二手丰田</a>
+                    <a href="#" class="f-m1">郑州二手宝马</a>
+                    <a href="#" class="f-m1"> 郑州二手奥迪</a>
+                    <a href="#" class="f-m1">郑州二手现代</a>
+                    <a href="#" class="f-m1">郑州二手本田</a>
+                    <a href="#" class="f-m1">郑州二手日产</a>
+                    <a href="#" class="f-m1" id="f-m1"></a>
+                </div>
+                <div class="foot-m">
+                    <span>热门车系：</span>
+                    <a href="#" class="f-m1">郑州二手福特福克斯</a>
+                    <a href="#" class="f-m1"> 郑州二手福特蒙迪欧</a>
+                    <a href="#" class="f-m1">郑州二手福特翼虎</a>
+                    <a href="#" class="f-m1">郑州二手福特锐界</a>
+                    <a href="#" class="f-m1">郑州二手哈弗哈弗H6</a>
+                    <a href="#" class="f-m1">郑州二手大众迈腾</a>
+                    <a href="#" class="f-m1">郑州二手大众朗逸</a>
+                    <a href="#" class="f-m1">郑州二手大众帕萨特</a>
+                    <a href="#" class="f-m1" id="f-m1"></a>
+                </div>
+                <div class="foot-m">
+                    <span>友情链接：</span>
+                    <a href="#" class="f-m1"> 郑州信息港</a>
+                    <a href="#" class="f-m1">郑州厂房出租</a>
+                    <a href="#" class="f-m1"> 郑州二手车</a>
+                    <a href="#" class="f-m1"> 郑州二手车</a>
+                    <a href="#" class="f-m1">郑州二手车</a>
+                    <a href="#" class="f-m1">郑州百姓网</a>
+                    <a href="#" class="f-m1">郑州装修网</a>
+                    <a href="#" class="f-m1">郑州二手车</a>
+                    <a href="#" class="f-m1">郑州天气预报15天</a>
+                    <a href="#" class="f-m1">郑州车市</a>
+                    <a href="#" class="f-m1">郑州二手车</a>
+                    <a href="#" class="f-m1" id="f-m1"></a>
+                </div>
+                <div class="foot-m">
+                    <span>热门城市：</span>
+                    <a href="#" class="f-m1">全国二手车</a>
+                    <a href="#" class="f-m1">郑州二手车</a>
+                    <a href="#" class="f-m1">上海二手车</a>
+                    <a href="#" class="f-m1"> 沈阳二手车</a>
+                    <a href="#" class="f-m1">昆明二手车</a>
+                    <a href="#" class="f-m1"> 北京二手车</a>
+                    <a href="#" class="f-m1">南宁二手车</a>
+                    <a href="#" class="f-m1"> 长春二手车</a>
+                    <a href="#" class="f-m1"> 成都二手车</a>
+                    <a href="#" class="f-m1"> 天津二手车</a>
+                    <a href="#" class="f-m1"> 广州二手车</a>
+                    <a href="#" class="f-m1"> 重庆二手车</a>
+                    <a href="#" class="f-m1" id="f-m1"></a>
+                </div>
+                <div class="foot-m">
+                    <span>移动版：</span>
+                    <a href="#" class="f-m1">西瓜二手车郑州移动页</a>
+                </div>
+                <div class="foot-m">
+                    <span>热门页面：</span>
+                    <a href="#" class="f-m1"> 1万元二手车</a>
+                    <a href="#" class="f-m1"> 2万左右二手车</a>
+                    <a href="#" class="f-m1">3万的二手车</a>
+                    <a href="#" class="f-m1">4万的二手车</a>
+                    <a href="#" class="f-m1">5万以下二手车</a>
+                    <a href="#" class="f-m1"> 二手越野车</a>
+                    <a href="#" class="f-m1"> 二手商务车</a>
+                    <a href="#" class="f-m1">  二手跑车</a>
+                    <a href="#" class="f-m1"> 自动挡二手车</a>
+                    <a href="#" class="f-m1">急卖二手车</a>
+                    <a href="#" class="f-m1">低价出售二手车</a>
+                    <a href="#" class="f-m1" id="f-m1"></a>
+                </div>
+                <div class="touw">车好多旧机动车经纪&nbsp;（北京）&nbsp;有限公司&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;北京市顺义区南法信镇政府西侧(北京市旧机动车交易市场有限公司顺义分市场院内A区01号)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;010-57317000 </div>
+            </div>
+        </div>
+        <!-- 登录框 -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+              aria-hidden="true">&times;</span></button>
+          <h4 class="modal-title" id="myModalLabel">欢迎登录</h4>
+        </div>
+        <div class="modal-body">
+          <form class="form-horizontal">
+            <div class="form-group">
+              <label for="exampleInputEmail1" class="col-md-2">手机号</label>
+              <div class="col-md-10">
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="请输入您的手机号">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="exampleInputPassword1" class="col-md-2">验证码</label>
+              <div class="col-md-6">
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="请输入您的验证码">
+			  </div>
+			  <div class="col-md-4">
+				<button class="ver1">获取验证码</button>
+			  </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-3 col-md-offset-2">
+                <div class="checkbox">
+                  <label>
+                    <input type="checkbox"> Remember me
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <div class="col-md-2 col-md-offset-2">
+                <button type="submit" class="btn btn-default">登录</button>
+              </div>
+            </div>
+
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- jQuery (Bootstrap 的所有 JavaScript 插件都依赖 jQuery，所以必须放在前边) -->
+ <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+ <!-- 加载 Bootstrap 的所有 JavaScript 插件。你也可以根据需要只加载单个插件。 -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+        <script>
+            document.getElementById('buycar').onclick = function () {
+                window.location.href = '04buycar.html'
+            }
+        </script>
+</body>
+
+</html>
